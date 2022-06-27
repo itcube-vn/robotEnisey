@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital@1&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Charis SIL', serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+img{
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+}
+body{
+	padding: 100px;
+}
+
+body>section{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+}
+
+body>section>article:nth-child(3){
+	grid-column: span 2;
+}
+
+body>section>article:nth-child(6){
+	grid-column: span 2;
+}
+
+body>section>article:nth-child(6){
+	grid-row: span 4;
+}
+
+body>section>article:nth-child(9){
+	grid-row: span 2;
+}
+
+h1{
+	font-size: 54px;
+}
+
+h2{
+	font-size:48px;
+}
+
+p{
+	font-size: 20px;
+}
+
+h3{
+	font-size: 35px;
+	color: blue;
+}
